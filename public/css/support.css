@@ -1,0 +1,396 @@
+
+
+.support {background: #284351;padding: 10px 97px; overflow: hidden;}
+.newticket {
+    background: #cd4949;
+    color: white;
+    padding: 50px;
+    width: 275px;
+    float: left;cursor: pointer;
+}
+.listticket {
+    background: #cd4949;
+    color: white;
+    padding: 50px;
+    width: 275px;
+    float: right;cursor: pointer;
+}
+.support .table {width: 768px;margin-top: 10px;position: relative;float: left;}
+.support .table .list:nth-of-type(1) {    border: 0 none; line-height: 45px; text-align: center; overflow: hidden; position: relative;background: #fff;color: #000!important;}
+
+.support .table .list { margin-bottom: 5px;   border: 0 none; line-height: 45px; text-align: center; overflow: hidden; position: relative;background: #f5f5f5;color: #c14d4d!important;}
+
+.support .table .list .tb1 {width: 10%;}
+.support .table .list .tb2 {width: 30%;}
+.support .table .list .tb3 {width: 40%;}
+.support .table .list .tb4 {width: 20%;}
+
+
+.pagination{
+	border:0; margin:0; padding:0;
+	font-size:11px;
+	list-style:none;
+	margin-right:2px;
+
+}
+.pagination a { color:#fffff }
+
+.pagination .disabled {
+	border:solid 1px #DEDEDE
+	color:#fffff 
+	display:block;
+	float:left;
+	font-weight:bold;
+	margin-right:2px;
+	padding:3px 4px;
+}
+.pagination .next a,
+.pagination .disabled a {
+	font-weight:bold;
+} 
+.pagination .active{
+	color:#cd4949;
+	font-weight:bold;
+	display:block;
+	float:left;
+	padding:4px 6px;
+}
+.pagination a:link,
+.pagination a:visited {
+	color:#fff;
+	display:block;
+	float:left;
+	padding:3px 6px;
+	text-decoration:none;
+}
+.pagination a:hover{ }
+
+.support .coupon_form {overflow: hidden;}
+.support .coupon_form {background: #273B4A; border-radius: 2px; padding: 35px 43px; font-size: 14px; overflow: hidden;}
+
+.support .coupon_form .key_ref {float: left;clear: both;}
+.support .coupon_form .key_ref input.go-ref {display: block; border-radius: 2px; line-height: 34px; margin: 25px 35px 0 0; padding: 0 13px; color: #fff; float: left; background: rgba(36, 131, 208, 0.43); border: 1px solid #2483D0;}
+.support .coupon_form .key_ref textarea {background: #f5f5f5; border: 0 none; line-height: 34px; margin: 25px 5px 0 0;padding: 0 13px; font: 13px 'Open Sans'; float: left; color: #111;}
+
+.support .coupon_form .go-ref {display: block; border-radius: 2px; line-height: 34px; margin: 25px 35px 0 0; padding: 0 13px; color: #fff; float: left; background: rgba(36, 131, 208, 0.43); border: 1px solid #2483D0;}
+
+span.ntitle {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+span.nabout {
+    text-align: center;
+    display: block;
+}
+.nticket {
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    float: left;
+}
+.nticket input[type="text"] {
+    border: 2px #c14d4d solid;
+    width: 740px;
+    height: 34px;
+    padding: 0 12px;
+    font: 13px 'Open Sans';
+    color: #d9534f;
+    float: left;
+	    margin-bottom: 5px;
+}
+.nticket textarea{
+    border: 2px #c14d4d solid;
+    width: 740px;
+    height: 34px;
+    padding: 5px 12px 74px 12px;
+    font: 13px 'Open Sans';
+    color: #d9534f;
+    float: left;
+    margin-bottom: 5px;
+}
+.nticket input[type="submit"] {
+    background: #d9534f;
+    border: 0 none;
+    width: 141px;
+    height: 34px;
+    color: white;
+    float: left;
+    cursor: pointer;
+}.fticket {
+    display: block;
+    float: left;
+    background: #d9534f;
+    color: white;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    width: 768px;
+    margin-top: 15px;
+}.oticket {
+    display: block;
+    float: left;
+    background: #5cb85c;
+    color: white;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    width: 768px;
+    margin-top: 15px;
+}
+.sticket .avatar {
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.sticket {
+    float: left;
+    margin-top: 20px;
+    display: block;
+    position: relative;
+}
+
+.sticket .avatar img {
+    border-radius: 50%;
+    width: 60px;
+}
+.sticket .tfe {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 500px;
+}
+.sticket .title {
+    color: #d9534f;
+
+  
+}
+.sticket .msg {
+	color: #fff;
+    width: 700px;
+    display: block;
+    float: left;
+    position: relative;
+    white-space: pre;
+    word-break: break-word;
+}
+
+
+.newtif input[type="text"] {
+    border: 2px #c14d4d solid;
+    width: 740px;
+    height: 34px;
+    padding: 0 12px;
+    font: 13px 'Open Sans';
+    color: #d9534f;
+    float: left;
+	    margin-bottom: 5px;
+}
+.newtif textarea{
+    width: 400px;
+    height: 30px;
+    background: #273B4A;
+    padding: 5px 12px 54px 12px;
+    border: 0;
+    margin: 15px 0 0 0;
+    font: 13px 'Open Sans';
+    color: #fff;
+    float: left;
+    margin-bottom: 5px;
+}
+.newtif input[type="submit"] {
+    background: #d9534f;
+    border: 0 none;
+    width: 141px;
+    height: 34px;
+    color: white;
+    float: left;
+    margin-right: -42px;
+    cursor: pointer;
+    display: block;
+    margin-left: -141px;
+    margin-top: 114px;
+}.newtif {
+    float: left;
+}span.infsff {
+    display: block;
+    margin-top: 30px;
+    color: #d9534f;
+}span.thanks {
+    display: block;
+    margin-top: 30px;
+    color: #5cb85c;
+}
+.sticket .tfe .time {
+    float: right;
+    right: 5px;
+    position: absolute;
+	color: #fff;
+}.suticket {
+    float: left;
+    margin-top: 20px;
+    display: block;
+    position: relative;
+    width: 100%;
+	background: #284351;
+}
+
+
+
+
+/* ======= */
+
+
+
+.page-main-block {
+    margin-bottom: 20px;
+    list-style: none;
+}
+.page-mini-title {
+    text-transform: uppercase;
+    color: #E8FBFF;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.page-block {
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.5px;
+    line-height: 22px;
+}
+.coupon_bar {
+    text-align: center;
+    background: #101010;
+    background-color: rgba(40, 67, 81, 0.33);
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 34px;
+    color: #fff;
+    cursor: text;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.ref_balance {
+    background-color: #1F2D38;
+    border: 1px solid #314657;
+    height: 48px;
+    line-height: 23px;
+    padding: 12px 10px;
+    margin-right: 5px;
+    color: #FFF;
+    transition: 0.2s;
+    display: list-item;
+    width: 205px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+	margin-left: 37px;
+}
+.coupon_form {
+    overflow: hidden;
+}
+.coupon_form_get {
+    overflow: hidden;
+}
+.coupon_form button {
+    vertical-align: middle;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: rgba(79, 192, 113, 0.27);
+    border: 1px solid #498877;
+    color: #F1F1F1;
+    text-align: center;
+    padding: 5px 0px 2px;
+    font-size: 12px;
+    width: 182px;
+    margin-top: 0px;
+    outline: none;
+}
+
+.coupon_form input {
+    background-color: #1F2D38;
+    border: 1px solid #314657;
+    height: 33px;
+    line-height: 33px;
+    padding: 0px 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #c2c3c7;
+    outline: 0;
+    transition: 0.2s;
+    display: list-item;
+    width: 180px;
+    font-size: 15px;
+    text-align: center;
+}
+.coupon_form_get button {
+    vertical-align: middle;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: rgba(79, 192, 113, 0.27);
+    border: 1px solid #498877;
+    color: #F1F1F1;
+    text-align: center;
+    padding: 5px 0px 2px;
+    font-size: 12px;
+    width: 182px;
+    margin-top: 0px;
+    outline: none;
+}
+
+.coupon_form_get input {
+    background-color: #1F2D38;
+    border: 1px solid #314657;
+    height: 33px;
+    line-height: 33px;
+    padding: 0px 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #c2c3c7;
+    outline: 0;
+    transition: 0.2s;
+    display: list-item;
+    width: 180px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.page-content {
+    color: #a5c9da;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+}
+.ref_coupon_active {
+    padding-top: 23px;
+    background-color: #1F2D38;
+    border: 1px solid #314657;
+    /* height: 48px; */
+    line-height: 23px;
+    padding: 12px 10px;
+    margin-right: 5px;
+    color: #FFF;
+    transition: 0.2s;
+    display: list-item;
+    width: 205px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
